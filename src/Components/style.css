@@ -1,0 +1,119 @@
+.rpc-content-item {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px 6px grey;
+}
+.rpc-content-controls .rpc-prev-btn{
+background: #191a33;
+color: #fff;
+}
+
+.rpc-content-controls .rpc-next-btn{
+background: #ff5f13;
+color:#fff;
+
+}
+
+.rpc-content-controls .rpc-content-control-dots .rpc-control-dot.active {
+    background:#191a33;
+}
+
+.contact-cover{
+    height: 100px;
+    width: 100%;
+
+    
+}
+.zoom-hov{
+    transform: none;
+}
+
+.zoom-hov:hover{
+    transform: scale(1.2) !important;
+    margin: 20px !important;
+}
+.bg-notice{
+     background-image: url('../images/sticky-note.png');
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px !important;
+    width: 100%;
+
+}
+a:hover{
+    color:#ff5f13 !important;
+    cursor: pointer !important;
+}
+
+.slider-image{
+    height: 680px;
+    background-color: black;
+    opacity: 0.6;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    top: 50%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color:#191a33 !important;
+    text-align: center;
+}
+
+.notice-image{
+     position: absolute; 
+     top: -54px; }
+.notice-content{
+    position: relative;
+     text-align: center; 
+     margin-top: 8px 
+}
+
+.social-video{
+    width: 400px ;
+    height: 300px;
+    border-radius: 16px;
+}
+@media only screen and (max-width: 769px){
+
+
+.slider-image{
+    height: auto;
+}
+}
+@media only screen and (max-width: 700px){
+
+
+           
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    top: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color:  #191a33 !important;
+    text-align: center;
+}}
+
+@media only screen and (max-width: 648px){
+.social-video{
+    width: auto ;
+    height: auto;
+    border-radius: 16px;
+}
+
+.notice-image{
+     position: absolute; 
+     top: -14px; }
+.notice-content {
+    position: relative;
+    text-align: center;
+    margin-top: 49px;
+}}
