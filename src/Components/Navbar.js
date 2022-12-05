@@ -15,7 +15,7 @@ let [navColor,setNavColor]=useState(0)
 
                         <nav className="navbar navbar-expand-lg" >
                             <div className="container-fluid ">
-                                    <a className="navbar-brand  text-white" href="#"> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ4VvouWBl7at3bNc3ZmsTLaRvSnTJgk20iQ&usqp=CAU' style={{height:'60px',width:'60px',borderRadius:'50%'}}></img></a>
+                                    <a className="navbar-brand  text-white" href="#"> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ4VvouWBl7at3bNc3ZmsTLaRvSnTJgk20iQ&usqp=CAU' style={{height:'56px',width:'56px',borderRadius:'50%'}}></img></a>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
@@ -44,20 +44,21 @@ let [navColor,setNavColor]=useState(0)
                                                     style={{ color: navColor == 3 ? '#ff5f13' : '#fff' }}
                                                     onClick={() => { navigate('/contact'); setNavColor(3) }}>Contact us</a>
                                         </li>
+                                           
                                         <li className="nav-item ">
-                                            <a className="nav-link btn " aria-current="page" 
+                                            <a className="nav-link  " aria-current="page" 
                                                     style={{ color: navColor==4?'#ff5f13':'#fff'}}
                                             onClick={()=>{ navigate('/gallery'); setNavColor(4)}}>Gallery</a>
                                         </li>
                                             <li className="nav-item ">
-                                                <a className="nav-link btn " aria-current="page"
+                                                <a className="nav-link  " aria-current="page"
                                                     style={{ color: navColor == 6 ? '#ff5f13' : '#fff' }}
                                                     onClick={() => { navigate('/socialmediacorner'); setNavColor(6) }}>Social Media Corner</a>
                                             </li>
 
 
                                         <li className="nav-item text-white">
-                                            <a href="https://www.google.com"><button className="btn" style={{ background: '#ff5f13', color: "white" }} type="submit">Login</button></a>
+                                                <a href="http://society-web.radixforce.com/admin/"><button className="btn" style={{ background: '#ff5f13', color: "white" }} type="submit">Login</button></a>
                                         </li>
                                     </ul>
 

@@ -1,14 +1,13 @@
 import { Button, Container } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import './style.css'
-
 import Content from './Content';
 import { Link, useNavigate } from 'react-router-dom';
 function Slider() {
 
    let navigate =useNavigate()
     return (<>
-            <Carousel >
+            <Carousel className='mt-8'>
                 <Carousel.Item>
                     <img
                     className="d-block w-100 slider-image"

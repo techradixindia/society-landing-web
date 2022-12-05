@@ -6,6 +6,7 @@
     box-shadow: 4px 4px 5px 6px grey;
 }
 .rpc-content-controls .rpc-prev-btn{
+
 background: #191a33;
 color: #fff;
 }
@@ -102,6 +103,8 @@ a:hover{
     text-align: center;
 }}
 
+
+
 @media only screen and (max-width: 648px){
 .social-video{
     width: auto ;
@@ -117,3 +120,19 @@ a:hover{
     text-align: center;
     margin-top: 49px;
 }}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: #fff !important;
+}
+
+.navbar{
+  --bs-navbar-toggler-focus-width: 0.00rem !important;  
+}

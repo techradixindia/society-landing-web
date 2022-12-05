@@ -2,12 +2,9 @@ import React from "react";
 import {  Row,Col  } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import "../style.css"
+import "./Gallery.css"
 function Gallery(){
     const [images, setImages] = React.useState([
-        
-       
-        
-
         "https://blogbox.indianeagle.com/wp-content/uploads/2019/07/73rd-Indian-Independence-Day-2019-events-USA.jpg",
         "https://bsmedia.business-standard.com/_media/bs/img/article/2019-09/02/full/1567388800-8455.jpg",
         "https://blog.radissonblu.com/wp-content/uploads/2016/11/shutterstock_154677038.jpg",
@@ -18,11 +15,6 @@ function Gallery(){
         "https://www.rockitfish.co.uk/images-casestudies/colconf/conference-organisers.jpg",
         "https://freekaamaal.com/blog/wp-content/uploads/2018/09/image1.jpg",
         "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZXZlbnR8ZW58MHx8MHx8&w=1000&q=80",
-
-
-
- 
-
     ])
 return(
 
@@ -56,7 +48,7 @@ return(
                     
 
                     <Card className='zoom-hov' style={{ width: '19rem', margin: '10px', boxShadow: '1px 2px 9px 0px #808080db', borderRadius: '16px' }} data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-                        <img src={require("../../images/image-2.jpeg")} />
+                        <img style={{borderTopLeftRadius:'5%'}} src={require("../../images/image-2.jpeg")} />
                     </Card>
 
                     <Card className='zoom-hov' style={{ width: '19rem', margin: '10px', boxShadow: '1px 2px 9px 0px #808080db', borderRadius: '16px' }} data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">

@@ -15,13 +15,15 @@ function Services() {
                 <Row>
                     <Col>
                         <Card style={{ width: '18rem', margin: '10px' }} data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-                            <Card.Img variant="top" src={require('../images/image-8.jpeg')} style={{height:"250px"}} />
-                            <Card.Body>
+                            <Card.Img variant="top" src={require('../images/image-8.jpeg')} style={{ height: "250px" }} />
+                            <Card.Body >
                                 <Card.Title>Silver Springs Marathon</Card.Title>
                                 <Card.Text>
                                     About 200 residents participated in the marathon and enjoyed the Adrenalin rush. This marks the completion of 4th Marathon running event in SS phase 1.
                                 </Card.Text>
-                                <Button style={{ background: '#191a33', border: 'none' }}>Go somewhere</Button>
+                                <div className='d-flex justify-content-center'>
+                                    <Button className='d-flex justify-content-center mt-3' clasname="mt-5" style={{ background: '#191a33', border: 'none' }}>Go </Button>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -35,7 +37,9 @@ function Services() {
                                 <Card.Text>
                                     SS residents tied up with Medista hospital to organize Covid vaccination camp. Currently there are no covid positive case reported in the society. Kudos to the residents.
                                 </Card.Text>
-                                <Button style={{ background: '#191a33', border: 'none' }}>Go somewhere</Button>
+                                <div className='d-flex justify-content-center'>
+                                    <Button style={{ background: '#191a33', border: 'none', }}>Go </Button>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -48,7 +52,9 @@ function Services() {
                                 <Card.Text>
                                     SS residents have taken the promise to reduce water consumption by 20% and have started several water saving initiatives across the society lead by Ms Tomar and Mr Goel.
                                 </Card.Text>
-                                <Button style={{ background: '#191a33', border: 'none' }}>Go somewhere</Button>
+                                <div className='d-flex justify-content-center'>
+                                    <Button style={{ background: '#191a33', border: 'none' }}>Go </Button>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -56,7 +62,7 @@ function Services() {
 
 
             </div>
-            
+
         </>
     );
 

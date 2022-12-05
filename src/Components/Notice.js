@@ -22,7 +22,7 @@ function Notice() {
                             <Card.Body  className='text-center'>
                                 <Card.Title> Power Outage</Card.Title>
                                 <Card.Text>
-                                    There will be outage of power from 8 AM to 845 PM on December 12th 2022. Please plan accordingly.
+                                    There will be outage of power from 8:00 AM to 8:45 PM on December 12th 2022. Please plan accordingly.
                                     
                                 </Card.Text>
                                 <Link to='/notice'>
