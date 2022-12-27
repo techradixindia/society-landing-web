@@ -50,19 +50,19 @@ a:hover{
 }
 
 .slider-image{
-    height: 680px;
-    background-color: black;
-    opacity: 0.6;
+    /* height: 680px; */
+    /* background-color: black;
+    opacity: 0.6; */
 }
 .carousel-caption {
     position: absolute;
-    right: 15%;
+    right: 25%;
     bottom: 1.25rem;
-    left: 15%;
-    top: 50%;
+    left: 25%;
+    top: 40%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-    color:#191a33 !important;
+    color:#fff !important;
     text-align: center;
 }
 

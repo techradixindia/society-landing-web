@@ -1,0 +1,925 @@
+{
+	"info": {
+		"_postman_id": "4f5693fc-c636-4bc6-bbb2-8b1c97332a0b",
+		"name": "Poornsatya",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "certification list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "search_data",
+							"value": "maggi",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://meta.radixforce.com/certification/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"certification",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "category list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "search_data",
+							"value": "maggi",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://meta.radixforce.com/certification/7594674304250185/category/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"certification",
+						"7594674304250185",
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subcategory list meat",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://meta.radixforce.com/certification/3924568569427752/category/8553807761169032/subcategory/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"certification",
+						"3924568569427752",
+						"category",
+						"8553807761169032",
+						"subcategory",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subcategory list poultry",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://meta.radixforce.com/certification/7594674304250185/category/6797993057504681/subcategory/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"certification",
+						"7594674304250185",
+						"category",
+						"6797993057504681",
+						"subcategory",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "meat lamb food product list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://meta.radixforce.com/certification/7594674304250185/category/7107408379646217/subcategory/6924146395610409/food_product/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"certification",
+						"7594674304250185",
+						"category",
+						"7107408379646217",
+						"subcategory",
+						"6924146395610409",
+						"food_product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "meat buffello product list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://meta.radixforce.com/certification/7594674304250185/category/7107408379646217/subcategory/6316034429702793/food_product/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"certification",
+						"7594674304250185",
+						"category",
+						"7107408379646217",
+						"subcategory",
+						"6316034429702793",
+						"food_product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "category create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Packaged Foods",
+							"type": "default"
+						},
+						{
+							"key": "category_type",
+							"value": "ready_to_eat",
+							"type": "default"
+						},
+						{
+							"key": "img",
+							"type": "file",
+							"src": "/home/rituraj/Downloads/packaged-food-brands.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.53:8000/category/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"53"
+					],
+					"port": "8000",
+					"path": [
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subcategory create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Packaged Foods",
+							"type": "default"
+						},
+						{
+							"key": "category_type",
+							"value": "ready_to_eat",
+							"type": "default"
+						},
+						{
+							"key": "img",
+							"type": "file",
+							"src": "/home/rituraj/Downloads/packaged-food-brands.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.53:8000/category/2797638954282120/subcategory/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"53"
+					],
+					"port": "8000",
+					"path": [
+						"category",
+						"2797638954282120",
+						"subcategory",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create food product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "product_name",
+							"value": "Natural Rice Idiyappam",
+							"type": "default"
+						},
+						{
+							"key": "img",
+							"type": "file",
+							"src": "/home/rituraj/Downloads/idliutpam.png"
+						},
+						{
+							"key": "product_description",
+							"value": "Our idiyappams are the perfect bite into tradition, health, and deliciousness. The idiyappams are made with all natural ingredients and no preservatives.",
+							"type": "default"
+						},
+						{
+							"key": "has_certification",
+							"value": "yes",
+							"type": "default"
+						},
+						{
+							"key": "lic_no",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "product_veg_nonveg",
+							"value": "veg",
+							"type": "default"
+						},
+						{
+							"key": "energy",
+							"value": "396",
+							"type": "default"
+						},
+						{
+							"key": "carbs",
+							"value": "82",
+							"type": "default"
+						},
+						{
+							"key": "total_sugar",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "fiber",
+							"value": "3.5",
+							"type": "default"
+						},
+						{
+							"key": "total_fat",
+							"value": "3.5",
+							"type": "default"
+						},
+						{
+							"key": "saturated_fat",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "trans_fat",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "cholesterol",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "sodium",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "iron",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "flour",
+							"value": "Rice Flour",
+							"type": "default"
+						},
+						{
+							"key": "type_of_oil",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "color",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "dehydrates_veg",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "added_flavour",
+							"value": "NO ADDED FLAVOURS",
+							"type": "default"
+						},
+						{
+							"key": "test_flavour",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "shelf_life",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "allergen_info",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "Religious_sentiments",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "chicken_type",
+							"value": "no",
+							"type": "default"
+						},
+						{
+							"key": "protein",
+							"value": "9",
+							"type": "default"
+						},
+						{
+							"key": "sugar",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "cokking_time",
+							"value": "",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://104.225.217.230:8004/category/1403815008008168/subcategory/6187096622935432/food_product/",
+					"protocol": "http",
+					"host": [
+						"104",
+						"225",
+						"217",
+						"230"
+					],
+					"port": "8004",
+					"path": [
+						"category",
+						"1403815008008168",
+						"subcategory",
+						"6187096622935432",
+						"food_product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://meta.radixforce.com/products/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "search_data",
+							"value": "Teriyaki Dip Sauce Marinade",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://meta.radixforce.com/upload/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"upload",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "meat goat food product list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://meta.radixforce.com/certification/7594674304250185/category/7107408379646217/subcategory/8039393656249065/food_product/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"certification",
+						"7594674304250185",
+						"category",
+						"7107408379646217",
+						"subcategory",
+						"8039393656249065",
+						"food_product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "meat pork food product list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://meta.radixforce.com/certification/7594674304250185/category/7107408379646217/subcategory/1303476687945929/food_product/",
+					"protocol": "https",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"certification",
+						"7594674304250185",
+						"category",
+						"7107408379646217",
+						"subcategory",
+						"1303476687945929",
+						"food_product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://meta.radixforce.com/products/",
+					"protocol": "http",
+					"host": [
+						"meta",
+						"radixforce",
+						"com"
+					],
+					"path": [
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "riturajd@tech-radix.com",
+							"type": "default"
+						},
+						{
+							"key": "fullname",
+							"value": "Rituraj Dhabake",
+							"type": "default"
+						},
+						{
+							"key": "profile",
+							"type": "file",
+							"src": "/home/rituraj/Downloads/Stute Diabetic Thick Cut Orange Marmalade.jpg"
+						},
+						{
+							"key": "member_type",
+							"value": "silver",
+							"type": "default"
+						},
+						{
+							"key": "phone_no",
+							"value": "7067713684",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/signup/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"signup",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verifyotp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "otp",
+							"value": "666159",
+							"type": "default"
+						},
+						{
+							"key": "public_id",
+							"value": "363921969105480",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/verify_otp/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"verify_otp",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resend_otp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "public_id",
+							"value": "363921969105480",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/resend_otp/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"resend_otp",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "riturajd@tech-radix.com",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "qwerty",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reset password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "riturajd@tech-radix.com",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/password_reset/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"password_reset",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_profile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "9711c31de0c9350d23cfdaf84dba9ac60e788f3ca37da7359984999e9855e85a1bdec76f5656030c08674feefbaa96e9fca07a8ada5c687abb928a9b6089745e991690fe24c48f37c0bcfeca74f000f830161a6daa68aae9c3099dfc6766b",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"key": "Authorization",
+						"value": "9711c31de0c9350d23cfdaf84dba9ac60e788f3ca37da7359984999e9855e85a1bdec76f5656030c08674feefbaa96e9fca07a8ada5c687abb928a9b6089745e991690fe24c48f37c0bcfeca74f000f830161a6daa68aae9c3099dfc6766b ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "rdhabake@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "fullname",
+							"value": "Rituraj Dhabake",
+							"type": "default"
+						},
+						{
+							"key": "profile",
+							"type": "file",
+							"src": "/home/rituraj/Downloads/download (43).jpeg"
+						},
+						{
+							"key": "member_type",
+							"value": "silver",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "phone_no",
+							"value": "7067713684",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "qwerty",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/profile/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"profile",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "9711c31de0c9350d23cfdaf84dba9ac60e788f3ca37da7359984999e9855e85a1bdec76f5656030c08674feefbaa96e9fca07a8ada5c687abb928a9b6089745e991690fe24c48f37c0bcfeca74f000f830161a6daa68aae9c3099dfc6766b",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/profile/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"profile",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

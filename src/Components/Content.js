@@ -5,8 +5,9 @@ function Content() {
     return (
         <>
         <Row className="mt-6">
+       
 
-                <Row >
+                <Row className="mt-3" >
                     <Col lg={6} md={10} className='d-flex justify-content-center' data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                         <img src={require("../images/phase1.jpg")} height='320' width='90%'
                             style={{
